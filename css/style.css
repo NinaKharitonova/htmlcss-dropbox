@@ -60,3 +60,28 @@
   height: 100%;
   width: 68%;
 }
+
+.upper-table .container {
+  background-color: blanchedalmond;
+  height: 1124px;
+  width: 100%;
+}
+
+.upper-table .schema-iniziale {
+  background-color: aqua;
+  height: 230px;
+  width: 100%;
+}
+
+.upper-table .tabelle {
+  display: flex;
+  background-color: rgb(117, 40, 91);
+  height: 709px;
+  width: 100%;
+}
+
+.upper-table .sezione-separata {
+  background-color: rgb(205, 158, 108);
+  height: 186px;
+  width: 100%;
+}
