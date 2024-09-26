@@ -32,6 +32,10 @@ section {
   max-width: 100%;
 }
 
+.w-1-3 {
+  width: calc(100% / 3);
+}
+
 .w-30 {
   width: 30%;
 }
@@ -108,13 +112,44 @@ section {
 
 #partners .container {
   display: flex;
-  position: relative;
-  top: 50%;
 }
 
 /* # SECTION SOLUTION */
 
+#solution {
+  padding-top: 100px;
+}
+
+#solution .solution-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+#solution .solution-cards > * {
+  flex-grow: 1;
+}
+
+/* # SECTION SIMPLE */
+#simple > .container {
+  text-align: center;
+}
+
 /* # SECTION BRANDS */
+
+#brands > .container {
+  display: flex;
+}
+
+#brands .brands-square {
+  width: 50%;
+}
+
+#brands .brands-col {
+  width: calc(100% / 3);
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* # SECTION WORK WITH US */
 
