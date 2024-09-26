@@ -153,11 +153,24 @@ section {
 
 /* # SECTION WORK WITH US */
 
+#small > .container {
+  display: flex;
+}
+
+#small > .container > .descrizione {
+  background-color: rgb(121, 189, 189);
+  width: 107%;
+  text-align: center;
+  margin: -51px;
+  padding: 72px;
+}
+
 /* # SECTION FAQ */
 
 /* # SECTION FOOTER */
 
 /* # DEBUG */
+
 .debug,
 .debug * {
   background-color: lightgrey;
